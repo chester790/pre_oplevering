@@ -1,0 +1,17 @@
+<Files ".env">
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Files "db.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files ".ht*">
+  Require all denied
+</Files>
+
+<Files ".git*">
+    Require all denied
+</Files>

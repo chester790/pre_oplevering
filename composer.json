@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^11.1",
+        "php-webdriver/webdriver": "^1.1"
+    },
+    "require": {
+        "fabpot/goutte": "^4.0"
+    }
+}
